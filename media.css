@@ -1,4 +1,4 @@
-@media screen and (max-width:768px){
+/* @media screen and (max-width:768px){
     .heading{
         text-align: center;
         margin-left: 13rem;
@@ -39,7 +39,7 @@
         width: 30px;
         margin-left: 55rem;
     }
-}
+} */
 @media screen and (max-width:1024px){
     .para-one{
         width: 38rem;
