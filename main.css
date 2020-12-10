@@ -4,6 +4,8 @@
     font-weight: bold;
 }
 .para-one{
+    width: 45rem;
+    margin-left: 30rem;
     font-size: 1.3rem;
     text-align: center;
     font-family: 'cambria';
@@ -46,13 +48,18 @@ img{
     height: 200px;
 }
 .box1,.box2{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 2rem;
+    width: 80rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    margin: 2rem 2rem 2rem 15rem;
 }
-.rect1,.rect2{
-    display: flex;
-    justify-content: space-evenly;
+.rect1{
+    width: 80rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    margin: 2rem 2rem 2rem 15rem;
 }
 .para{
     padding: 1rem;
@@ -71,6 +78,6 @@ img{
     background-color: #1fa7f4;
     border-radius: 50px;
     margin-left: auto;  
-    margin-right:5rem;
+    margin-right:18rem;
 }
 
