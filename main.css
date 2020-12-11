@@ -4,15 +4,14 @@
     font-weight: bold;
 }
 .para-one{
-    width: 45rem;
-    margin-left: 20rem;
     font-size: 1.3rem;
     text-align: center;
     font-family: 'cambria';
 }
 img{
-    width: 60vh;
-    margin-left: 28rem;
+    width: 40%;
+    height: 20%;
+    margin-left: 30%;
 }
 .box-a{
     border: 3px solid #1fa7f4;
@@ -48,34 +47,38 @@ img{
     height: 150px;
 }
 .box1,.box2{
-    width: 60rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 2rem;
-    margin-left: 12rem;
+    
 }
 .rect1{
-    width: 82rem;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
 }
 .para{
     padding: 1rem;
-    width: 20rem;
     border: 3px solid #1fa7f4;
     text-align: center;
     font-size: 20px;
+    margin: 2rem;
 }
 
-.foot{
-    margin: 20px 0;
+.chat{
+    /* margin: 5px 0; */
     font-size: 40px;
     font-family: sans-serif;
-    width: 40px;
-    padding: 15px 15px 15px 20px;
     background-color: #1fa7f4;
-    border-radius: 50px;
-    margin-left: 75rem; 
+    border-radius: 50%; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 25px;
+    bottom: 15px;
+    padding-top: 5px;
 }
 

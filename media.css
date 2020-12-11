@@ -1,43 +1,4 @@
-@media screen and (max-width:1024px){
-    .para-one{
-        width: 38rem;
-        margin-left: 12rem;
-        font-size: 1.1rem;
-    }
-    img{
-        width: 60vh;
-        margin-left: 21rem;
-    }
-    .box-a,.box-b,.box-c,.box-d,.box-e,.box-f{
-        width: 150px;
-        height: 150px;
-    }
-    .box1,.box2{
-        width: 45rem;
-        display: flex;
-        margin: 2rem 2rem 2rem 9rem;
-    }
-    .rect1{
-        width: 60rem;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        margin: 2rem 2rem 1rem 2rem;
-    }
-    .para{
-        padding: 1rem;
-        width: 14rem;
-    }
-    .foot{
-        font-size: 30px;
-        width: 30px; 
-        margin-left: 55rem; 
-    }
-
-}
-@media screen and (max-width:768px){
-    .heading{
-        margin-left: 230px;
-    }
+@media screen and (min-width:760px) and(max-width:800px){
     .rect1{
         margin: 2rem;
     }
@@ -46,33 +7,27 @@
     }
 }
 @media screen and (max-width: 425px){
-    .heading{
-        margin-left: 10rem;
-        font-size: 2.5rem;
-    }
-    .para-one{
-        font-size: 2rem;
-        text-align: center;
-    }
     .rect1{
-        display: grid;
-        grid-template-columns: auto auto;
-        justify-content: space-around;
-    }
-    .para{
-        padding: 1rem;
-        width: 20rem;
-        margin-right: 4.5rem;
-        font-size: 30px;
-    }
-    .foot{
-        margin-left: 47rem;
+        display: flex;
+        flex-wrap: wrap;
     }
     .box1,.box2{
-        margin: 2rem 2rem 2rem 5rem;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
     }
-    img{
-        width: 100vh;
-        margin-left: 9rem;
+    .box-a,.box-b,.box-c,.box-d,.box-e,.box-f{
+        margin: 1rem;
+    }
+    .para-one{
+        margin: 1rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 320px){
+    .box1,.box2{
+        width: 60%;
     }
 }
