@@ -5,14 +5,14 @@
 }
 .para-one{
     width: 45rem;
-    margin-left: 30rem;
+    margin-left: 20rem;
     font-size: 1.3rem;
     text-align: center;
     font-family: 'cambria';
 }
 img{
     width: 60vh;
-    margin-left: 38rem;
+    margin-left: 28rem;
 }
 .box-a{
     border: 3px solid #1fa7f4;
@@ -48,18 +48,17 @@ img{
     height: 150px;
 }
 .box1,.box2{
-    width: 70rem;
+    width: 60rem;
     display: flex;
     justify-content: space-around;
     margin: 2rem;
-    margin-left: 21rem;
+    margin-left: 12rem;
 }
 .rect1{
-    width: 100rem;
+    width: 83rem;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-around;
-    margin: 2rem 2rem 2rem 6rem;
 }
 .para{
     padding: 1rem;
@@ -78,6 +77,6 @@ img{
     background-color: #1fa7f4;
     border-radius: 50px;
     margin-left: auto;  
-    margin-right:10rem;
+    margin-right:3rem;
 }
 
