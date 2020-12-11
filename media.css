@@ -1,4 +1,18 @@
-/* @media screen and (max-width:1024px){
+@media screen and (max-width:768px){
+    .heading{
+        margin-left: 230px;
+    }
+    .para-one{
+        font-size: 1.3rem;
+    }
+    .rect1{
+        margin-left: 0;
+    }
+    .foot{
+        margin-left: 54rem;
+    }
+} 
+@media screen and (max-width:1024px){
     .para-one{
         width: 38rem;
         margin-left: 12rem;
@@ -30,49 +44,7 @@
     .foot{
         font-size: 30px;
         width: 30px; 
-        margin-right:3rem;
+        margin-left: 55rem; 
     }
+
 }
-@media screen and (max-width:768px)
-{
-    .heading{
-        margin-left: 240px;
-    }
-    .para-one{
-        font-size: 1.3rem;
-    }
-    .rect1{
-        margin-left: 0;
-    }
-}
-/* @media screen and (max-width:768px){
-    .heading{
-        text-align: center;
-        margin-left: 13rem;
-    }
-    
-    img{
-        width: 60vh;
-        margin-left: 14rem;
-    }
-    .box-a,.box-b,.box-c,.box-d,.box-e,.box-f{
-        width: 150px;
-        height: 150px;
-    }
-    .box1,.box2{
-        width: 45rem;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        justify-content: space-between;
-    }
-    
-    .para{
-        padding: 1rem;
-        width: 14rem;
-    }
-    .foot{
-        font-size: 30px;
-        width: 30px;
-        margin-left: 55rem;
-    }
-}*/
